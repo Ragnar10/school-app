@@ -2,7 +2,6 @@ import React from 'react';
 import './StudentItem.css';
 
 const StudentItem = ({student, groups, onSelectStudent, onDeleteStudent}) => {
-    console.log(student.groupId);
     return (
         <div className='student'>
             <div className="student_info" onClick={() => onSelectStudent(student.id)}>
