@@ -42,7 +42,7 @@ const StudentsForm = ({student, groups, saveStudentItem, history}) => {
                    onChange={onChangeItem}
             />
             {
-                groups.length >= 1 ? <select className='student_select'
+                groups.length > 0 ? <select className='student_select'
                         name='student_group'
                         value={selectItem}
                         onChange={onChangeSelect}
