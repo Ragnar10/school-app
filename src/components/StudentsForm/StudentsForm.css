@@ -1,0 +1,20 @@
+.student_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    min-height: 50px;
+    padding: 10px;
+    box-shadow: 0 1px 2px #333;
+}
+.student_input {
+    padding: 5px;
+    font-size: 20px;
+}
+.student_select {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    padding: 2px 5px;
+    margin: 10px;
+}

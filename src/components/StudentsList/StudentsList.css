@@ -1,0 +1,9 @@
+.students_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.students_search {
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+.groups_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.groups_search {
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+}
