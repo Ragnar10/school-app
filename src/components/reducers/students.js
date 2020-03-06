@@ -14,7 +14,7 @@ const initialState = {
 };
 
 const addStudentItem = (state, action) => {
-    const newId =  state.list.length >= 1 ? (state.list[state.list.length - 1].id + 1) : 1;
+    const newId =  state.list.length > 0 ? (state.list[state.list.length - 1].id + 1) : 1;
     return {
         ...state,
         list: [...state.list, {id: newId, title: action.payload.title, groupId: action.payload.groupId}],
